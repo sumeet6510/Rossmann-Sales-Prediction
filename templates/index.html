@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rossmann Sales Prediction</title>
+</head>
+<body style="background-color:grey;">
+<h1>Rossmann Sales Prediction</h1>
+<br>
+<h3>Fill below informations for prediction of sales</h3>
+
+<form action="/submit" method="post">
+    Store Open/Close: <select id="subject" name="subject" required>
+    <option selected="selected" value="">Select Store Open/Close</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+</select>
+    <br><br>
+    Days of Week: <select id="Days of Week" name="Days of Week" required>
+    <option selected="selected" value="">Please select Days of Week</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+</select>
+    <br><br>
+    Promo2: <select id="Promo2" name="Promo2" required>
+    <option selected="selected" value="">Select Promo2</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+</select>
+    <br><br>
+    State Holiday: <select id="State Holiday" name="State Holiday" required>
+    <option selected="selected" value="">Select State Holiday Type</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+    <br><br>
+    School Holiday: <select id="School Holiday" name="School Holiday" required>
+    <option selected="selected" value="">Select School Holiday Type</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+</select>
+    <br><br>
+    Store Type: <select id="Store Type" name="Store Type" required>
+    <option selected="selected" value="">Select Store Type</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select>
+    <br><br>
+    Assortment Type: <select id="Assortment Type" name="Assortment Type" required>
+    <option selected="selected" value="">Select Assortment Type</option>
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+</select>
+    <br><br>
+    Competition Distance:
+  <input id="Competition Distance" name="Competition Distance" placeholder="Fill the value" type="number">
+    <br><br>
+    Customers:
+  <input id="Customers" name="Customers" placeholder="Number of Customers" type="number">
+    <br><br>
+
+    Competition Month: <select name="Competition Month" id="Competition Month">
+    <option selected="selected" value="">Select Month</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+</select>
+    <br><br>
+        Competition Year:
+    <input id="Competition Year" name="Competition Year" placeholder="Fill the Year" type="number">
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+{{final_result}}
+</body>
+</html>
