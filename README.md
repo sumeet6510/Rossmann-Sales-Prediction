@@ -58,7 +58,7 @@ At this stage, 5 models were used for analysis: *Average - Baseline *Linear Regr
 
 # 5. Machine Learning Modelo Performance
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://github.com/sumeet6510/Rossmann-Sales-Prediction/tree/main/templates/Capture.png)
 
 # 6. Business Results
 
